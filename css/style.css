@@ -1,0 +1,366 @@
+
+@font-face{ 
+	font-family: 'belligerent';
+	src: url('../fonts/Belligerent/belligerent-webFont.eot');
+	src: url('../fonts/Belligerent/belligerent-webFont.eot?iefix') format('eot'),
+	     url('../fonts/Belligerent/belligerent-webFont.woff') format('woff'),
+	     url('../fonts/Belligerent/belligerent-webFont.ttf') format('truetype'),
+	     url('../fonts/Belligerent/belligerent-webFont.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'Basturd';
+	src: url('../fonts/Basturd/YEWBB-webFont.eot');
+	src: url('../fonts/Basturd/YEWBB-webFont.eot?iefix') format('eot'),
+	     url('../fonts/Basturd/YEWBB-webFont.woff') format('woff'),
+	     url('../fonts/Basturd/YEWBB-webFont.ttf') format('truetype'),
+	     url('../fonts/Basturd/YEWBB-webFont.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'open-sans';
+	src: url('../fonts/open-sans/OpenSans-Regular-webfont.eot');
+	src: url('../fonts/open-sans/OpenSans-Regular-webfont.eot?iefix') format('eot'),
+	     url('../fonts/open-sans/OpenSans-Regular-webfont.woff') format('woff'),
+	     url('../fonts/open-sans/OpenSans-Regular-webfont.ttf') format('truetype'),
+	     url('../fonts/open-sans/OpenSans-Regular-webfont.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'good-foot';
+	src: url('../fonts/good-foot/goodfoot-WebFont.eot');
+	src: url('../fonts/good-foot/goodfoot-WebFont.eot?iefix') format('eot'),
+	     url('../fonts/good-foot/goodfoot-WebFont.woff') format('woff'),
+	     url('../fonts/good-foot/goodfoot-WebFont.ttf') format('truetype'),
+	     url('../fonts/good-foot/goodfoot-WebFont.svg#webfont') format('svg');
+}
+
+/* Navigacija */
+
+.navigacija-meni{
+	padding-right: 60px;
+	text-transform: uppercase;
+}
+.navigacija-meni li a{
+	font-size: 16px;
+	font-family: 'open-sans';
+	font-weight: bold;
+}
+.navigacija-meni li{
+	transition: 0.5s;
+}
+.navigacija-meni li:hover{
+	background-color: #5bc0de;
+	border-radius: 0px;
+}
+
+/*HEDER*/
+
+.site-header{
+	height: 500px;
+	background-position: center;
+	background-repeat: repeat-x;
+}
+.site-heading{
+	text-align: center;
+	color: #fff;
+	margin-top: 200px;
+}
+.site-heading h1{
+	font-family: 'belligerent';
+	font-size: 80px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-shadow: 5px 10px 15px black;
+
+}
+.site-heading hr{
+	max-width: 300px; 
+	border-width: 5px;
+	box-shadow: 5px 5px 10px black;
+	border-color: #fff;
+}
+.site-heading span{
+	font-family: 'belligerent';
+	font-size: 30px;
+	text-shadow: 5px 10px 15px black;
+}
+/* Sekcija o nama*/
+.o-nama{
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color:#2F323A;
+	padding-bottom: 80px;
+	box-shadow: 0px -2px 10px #000;
+	
+}
+
+.o-namaimg{
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 300px;
+}
+.o-nama-text{
+	color: #fff;
+	text-align: center;
+
+}
+.o-nama-text h1{
+	font-family: 'belligerent';
+	margin-top: 80px;
+	font-size: 45px;
+	text-shadow: 5px 5px 10px black;
+
+}
+.o-nama-text p{
+	margin-top: 30px;
+	font-family: 'open-sans';
+}
+.o-nama-text hr{
+	max-width: 300px; 
+	border-width: 5px;
+	box-shadow: 5px 5px 10px black;
+	border-color: #fff;
+	border-radius: 20px;
+}
+/*SEKCIJA USLUGE SOLJE*/
+
+.solje-img{
+ 	float: right;
+}
+.usluge-solje h1 {
+	font-family: 'belligerent';
+	margin-top: 80px;
+	text-align: center;
+	font-size: 45px;
+	text-shadow: 2px 2px 5px black;
+}
+.usluge-solje hr{
+	max-width: 300px; 
+	border-width: 5px;
+	box-shadow: 5px 5px 10px grey;
+	border-color: #000;
+	border-radius: 20px;
+}
+.usluge-solje p{
+	margin-left: 40px;
+	margin-top: 30px;
+	font-family: 'open-sans';
+	text-align: center;
+}
+.usluge-solje button{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.article-box{
+	background-color: #fff;
+	box-shadow: 0px -2px 10px #000;
+}
+
+/*SEKCIJA USLUGE MAJICE*/
+
+.majice-img{
+ 	float: left;
+ 	margin-left: 0px;
+ 	padding-left: 0px;
+}
+.usluge-majice h1 {
+	font-family: 'belligerent';
+	margin-top: 80px;
+	text-align: center;
+	font-size: 45px;
+	text-shadow: 2px 2px 5px black;
+}
+.usluge-majice hr{
+	max-width: 300px; 
+	border-width: 5px;
+	box-shadow: 5px 5px 10px grey;
+	border-color: #000;
+	border-radius: 20px;
+}
+.usluge-majice p{
+	margin-right: 40px;
+	margin-top: 30px;
+	font-family: 'open-sans';
+	text-align: center;
+}
+.usluge-majice button{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.article-box2{
+	background-color: #fff;
+	box-shadow: 0px -2px 10px #000;
+
+}
+
+/*SEKCIJA USLUGE SOLJE*/
+
+.stikeri-img{
+ 	float: right;
+}
+.usluge-stikeri h1 {
+	font-family: 'belligerent';
+	margin-top: 80px;
+	text-align: center;
+	font-size: 45px;
+	text-shadow: 2px 2px 5px black;
+}
+.usluge-stikeri hr{
+	max-width: 300px; 
+	border-width: 5px;
+	box-shadow: 5px 5px 10px grey;
+	border-color: #000;
+	border-radius: 20px;
+}
+.usluge-stikeri p{
+	margin-left: 40px;
+	margin-top: 30px;
+	font-family: 'open-sans';
+	text-align: center;
+}
+.usluge-stikeri button{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.article-box3{
+	background-color: #fff;
+	box-shadow: 0px -2px 10px #000;
+}
+
+/*KONTAKT*/
+.kontakt{
+	color: #fff;
+	text-align: center;
+	background-color: #2F323A;
+	padding-bottom: 100px;
+		box-shadow: 0px -2px 10px #000;
+}
+.kontakt img{	
+	margin-top:20px;
+	height: 100px;
+	width: 100px;
+
+}
+.kontakt h1{
+	padding-top:80px;
+	font-family: 'belligerent';
+	font-size: 45px;
+	text-shadow: 5px 5px 10px black;
+}
+.kontakt hr{
+	max-width: 300px; 
+	border-width: 5px;
+	box-shadow: 5px 5px 10px black;
+	border-color: #fff;
+	border-radius: 20px;
+}
+
+/*UTISCI*/
+#utisci{
+	padding-bottom: 50px;
+	background-color: #F2F2F2;
+}
+.heder h1{
+	text-align: center;
+	font-family: 'belligerent';
+	font-size: 45px;
+	margin-top: 70px;
+	text-shadow: 2px 2px 5px black;
+	
+}
+.heder hr{
+	max-width: 300px; 
+	border-width: 5px;
+	box-shadow: 5px 5px 10px black;
+	border-color: #000;
+	border-radius: 10px;
+}
+.avatarjedan{
+	border-radius: 20px;
+	background-color: #FFFAFA;
+	margin-top: 40px;
+	display: inline-block;
+	box-shadow: 10px 10px 20px grey;
+}
+.avatarjedan img{
+	margin-top: 15px;
+	margin-left:auto;
+	margin-right: auto;
+	height: 200px;
+	width: 200px;
+}
+.avatarjedan p{
+	font-family: 'good-foot';
+	font-size: 35px;
+	letter-spacing: -1px;
+	margin-top: 20px;
+	text-align: center;
+}
+.avatarjedan hr{
+	max-width: 300px; 
+	border-width: 5px;
+	box-shadow: 5px 5px 10px black;
+	border-color: #000;
+	border-radius: 20px;
+	margin-top: 30px;
+}
+  /*OSTAVLJANJE UTISKA FORMA*/
+
+.form{
+
+	background-color:#F2F2F2;
+	margin-top: 40px; 
+	margin: 0 auto; 
+	width:600px;
+}
+.form h1{
+	margin-top: 100px;
+	text-align: center;
+	font-family: 'belligerent';
+	font-size: 45px;
+	text-shadow: 2px 2px 5px black;
+}
+.inputforma{
+	border:5px double #BDBDBD;
+	border-radius: 20px;
+	padding: 20px;
+	margin-top: 40px;
+}
+.inputforma button{
+	margin-top: 20px;
+}
+#imeprezime{
+	
+	margin-top: 30px;
+}
+#textarea{
+	max-width: 500px;
+	margin-top: 20px;
+}
+ /*FOOTER*/
+
+#footer{
+ 	margin:0px;
+ 	background-color:#2F323A;
+ 	box-shadow: 0px -2px 10px #000;
+ }
+.footerbtn{
+	text-align: center;
+}
+#footer h6{
+	margin-bottom:-20px;
+	margin-top:40px;
+	text-align:center; 
+	color:#9d9d9d;
+}
+.footerbtn li a:hover{
+	text-decoration: none;
+	color:#9d9d9d;
+
+}
+.footerbtn li a{
+	text-decoration: none;
+	color:#9d9d9d;
+}
